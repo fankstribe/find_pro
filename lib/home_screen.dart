@@ -27,7 +27,18 @@ class HomeScreen extends StatelessWidget {
               bottomRight: Radius.circular(35.0)
             )
           ),
-          child: Text("Ciao"),
+          child: Column(
+            children: <Widget>[
+              Text(
+                "Find Your",
+                style: TextStyle(
+                  fontSize: 24,
+                  fontFamily: "Poppins"
+                ),
+              ),
+              Text("Inspiration")
+            ],
+          ),
         ),
       ),
     );
